@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+  
+    <style>
+        div{
+            height:100vh;
+            
+            background: linear-gradient(to right, purple, blue);
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #center{
+            background-color:white;
+            height: 100px;
+            width: 300px;
+            border:2px solid black;
+            display:flex;
+            box-shadow: 5px 5px 30px 10px black;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #hour,#minute,#second{
+            border:2px solid black;
+          flex:1;
+          height:100%;
+        color:rgb(0, 254, 63);
+        font-size: 50px;
+        text-shadow: 6px 6px 1px rgb(0, 0, 0);
+    }
+    
+
+
+
+    </style>
+</head>
+<body>
+
+    <div>
+<div id="center">
+    <div id="hour"></div>
+    <div id="minute"></div>
+    <div id="second"></div>
+</div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
